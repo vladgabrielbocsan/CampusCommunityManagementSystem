@@ -1,2 +1,4 @@
-class User {
-}
+abstract class User(
+    val username: String,
+    val password: String
+)
