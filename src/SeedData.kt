@@ -124,4 +124,91 @@ class SeedData {
             eventStatus = EventStatus.CANCELLED
         )
     )
+
+    val reservations = mutableListOf(
+        Reservation(
+            id = "R001",
+            student = students[0],
+            event = events[0],
+            status = ReservationStatus.ACTIVE
+        ),
+        Reservation(
+            id = "R002",
+            student = students[1],
+            event = events[0],
+            status = ReservationStatus.ACTIVE
+        ),
+        Reservation(
+            id = "R003",
+            student = students[2],
+            event = events[0],
+            status = ReservationStatus.USER_CANCELLED
+        ),
+        Reservation(
+            id = "R004",
+            student = students[0],
+            event = events[1],
+            status = ReservationStatus.ACTIVE
+        ),
+        Reservation(
+            id = "R005",
+            student = students[1],
+            event = events[1],
+            status = ReservationStatus.ACTIVE
+        ),
+        Reservation(
+            id = "R006",
+            student = students[3],
+            event = events[1],
+            status = ReservationStatus.ACTIVE
+        ),
+        Reservation(
+            id = "R007",
+            student = students[4],
+            event = events[1],
+            status = ReservationStatus.ACTIVE
+        ),
+        Reservation(
+            id = "R008",
+            student = students[5],
+            event = events[2],
+            status = ReservationStatus.ACTIVE
+        ),
+        Reservation(
+            id = "R009",
+            student = students[0],
+            event = events[3],
+            status = ReservationStatus.COMPLETED
+        ),
+        Reservation(
+            id = "R010",
+            student = students[2],
+            event = events[3],
+            status = ReservationStatus.COMPLETED
+        ),
+        Reservation(
+            id = "R011",
+            student = students[3],
+            event = events[4],
+            status = ReservationStatus.COMPLETED
+        ),
+        Reservation(
+            id = "R012",
+            student = students[4],
+            event = events[4],
+            status = ReservationStatus.USER_CANCELLED
+        ),
+        Reservation(
+            id = "R013",
+            student = students[1],
+            event = events[5],
+            status = ReservationStatus.EVENT_CANCELLED
+        ),
+        Reservation(
+            id = "R014",
+            student = students[5],
+            event = events[5],
+            status = ReservationStatus.EVENT_CANCELLED
+        )
+    )
 }
