@@ -55,4 +55,73 @@ class SeedData {
             password = "Student123"
         )
     )
+
+    val events = mutableListOf(
+        Event(
+            eventId = "E001",
+            eventTitle = "Python Coding Workshop",
+            eventCategory = "Academic",
+            eventOrganiser = "Helen Moore",
+            eventDate = "14 Oct 2026",
+            eventTime = "14:00",
+            eventLocation = "Computing Lab B12",
+            maximumCapacity = 6,
+            eventStatus = EventStatus.UPCOMING
+        ),
+        Event(
+            eventId = "E002",
+            eventTitle = "Five-a-Side Football",
+            eventCategory = "Sports",
+            eventOrganiser = "Alex Turner",
+            eventDate = "16 Oct 2026",
+            eventTime = "17:00",
+            eventLocation = "Sports Hall",
+            maximumCapacity = 4,
+            eventStatus = EventStatus.UPCOMING
+        ),
+        Event(
+            eventId = "E003",
+            eventTitle = "Careers in Technology",
+            eventCategory = "Careers",
+            eventOrganiser = "Rachel Adams",
+            eventDate = "20 Oct 2026",
+            eventTime = "13:00",
+            eventLocation = "Lecture Hall 2",
+            maximumCapacity = 6,
+            eventStatus = EventStatus.UPCOMING
+        ),
+        Event(
+            eventId = "E004",
+            eventTitle = "Student Wellbeing Workshop",
+            eventCategory = "Wellbeing",
+            eventOrganiser = "Sarah Lewis",
+            eventDate = "05 Oct 2026",
+            eventTime = "11:00",
+            eventLocation = "Room C05",
+            maximumCapacity = 5,
+            eventStatus = EventStatus.COMPLETED
+        ),
+        Event(
+            eventId = "E005",
+            eventTitle = "Community Volunteering Day",
+            eventCategory = "Volunteering",
+            eventOrganiser = "James Wilson",
+            eventDate = "02 Oct 2026",
+            eventTime = "09:00",
+            eventLocation = "Community Hub",
+            maximumCapacity = 6,
+            eventStatus = EventStatus.COMPLETED
+        ),
+        Event(
+            eventId = "E006",
+            eventTitle = "International Students Social",
+            eventCategory = "Social",
+            eventOrganiser = "Maria Costa",
+            eventDate = "18 Oct 2026",
+            eventTime = "18:00",
+            eventLocation = "Student Union",
+            maximumCapacity = 5,
+            eventStatus = EventStatus.CANCELLED
+        )
+    )
 }
