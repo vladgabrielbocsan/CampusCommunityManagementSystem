@@ -15,10 +15,10 @@ class AdministratorEventManager(
         print("Enter event organiser: ")
         val eventOrganiser = readln()
 
-        print("Enter event date: ")
+        print("Enter event date (DD MMM YYYY): ")
         val eventDate = readln()
 
-        print("Enter event time: ")
+        print("Enter event time (HH:mm): ")
         val eventTime = readln()
 
         print("Enter event location: ")
