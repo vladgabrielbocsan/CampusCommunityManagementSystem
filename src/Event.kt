@@ -1,11 +1,11 @@
 class Event(
     val eventId: String,
-    val eventTitle: String,
-    val eventCategory: String,
-    val eventOrganiser: String,
-    val eventDate: String,
-    val eventTime: String,
-    val eventLocation: String,
-    val maximumCapacity: Int,
-    val eventStatus: EventStatus
+    var eventTitle: String,
+    var eventCategory: String,
+    var eventOrganiser: String,
+    var eventDate: String,
+    var eventTime: String,
+    var eventLocation: String,
+    var maximumCapacity: Int,
+    var eventStatus: EventStatus
 )
