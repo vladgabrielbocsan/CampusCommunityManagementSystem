@@ -1,9 +1,8 @@
 fun main() {
     val seedData = SeedData()
-    val eventViewer = StudentEventViewer(seedData)
+    val reservationManager = StudentReservationManager(seedData)
 
     println("===== CAMPUS COMMUNITY MANAGEMENT SYSTEM =====")
 
-    eventViewer.viewAllEvents()
-    eventViewer.searchEvents()
+    reservationManager.makeReservation()
 }
